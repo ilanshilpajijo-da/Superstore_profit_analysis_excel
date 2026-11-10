@@ -63,3 +63,8 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - **Caution:** This shows a link, not proof. Products and categories also differ, so it should be checked further.
 
 **Found a circular reference in U25 (=[@Profit]), caused by an accidental formula. Restored the original value from the backup sheet and refreshed the pivots
+## Step 6: Profit by Region (Pivot Table)
+- All four regions are profitable, but margins differ a lot.
+- West has the best margin (14.9%) and Central the weakest (7.9%).
+- Central has higher sales than South (501K vs 392K) but lower profit.
+- **Next:** check whether higher discounts in Central explain the low margin.
