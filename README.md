@@ -35,3 +35,23 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 
 - **Result Column:** Created a Result column using IF(Profit<0, "Loss", "Profit") to flag loss-making orders.
 - **Pivot Table:** "Pivot table of Profit by Sub-Category showed 3 loss-making sub-categories: Bookcases(-3472.556), Supplies(-1189.0995) and Tables(-17725.4821).
+## Step 3: Helper Columns
+- **Year, Month:** Created from Order Date using YEAR() and MONTH() to analyse by period.
+- **Profit Margin:** Profit / Sales, so large and small orders can be compared fairly.
+- **Result:** =IF(Profit<0,"Loss","Profit") to flag loss-making orders.
+
+## Step 4: Profit by Sub-Category (Pivot Table)
+- Total profit: $286,409 (after cleaning). Average discount across all sales: 16%.
+- 3 of 17 sub-categories lose money:
+
+| Sub-Category | Total Profit | Avg Discount |
+|---|---|---|
+| Tables | -17,725 | 26% |
+| Bookcases | -3,473 | 21% |
+| Supplies | -1,189 | 8% |
+
+## Observations
+- Tables and Bookcases have above-average discounts (26% and 21% vs 16%), which may be hurting profit.
+- Supplies loses money even with a low discount (8%), so discount is not the only cause.
+- Binders has the highest average discount (37%) but is still profitable, so average discount alone does not explain losses.
+- **Next:** check profit at each discount level to find where discounts start causing losses.
