@@ -30,3 +30,4 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - **Missing values:** Checked Sales, Discount and Profit columns. All 9,994 rows were filled, no missing values.
 - **Duplicates:** Used Remove Duplicates on all columns except Row ID (Row ID is unique for every row and would hide real duplicates). 1 duplicate row was removed, leaving 9,993 rows.
 - **Backup:** Kept an untouched copy of the original data in a separate sheet.
+"Created Year and Month columns from Order Date using YEAR() and MONTH(), to analyse profit by period."
