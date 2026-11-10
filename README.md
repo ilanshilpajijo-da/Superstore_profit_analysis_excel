@@ -31,4 +31,4 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - **Duplicates:** Used Remove Duplicates on all columns except Row ID (Row ID is unique for every row and would hide real duplicates). 1 duplicate row was removed, leaving 9,993 rows.
 - **Backup:** Kept an untouched copy of the original data in a separate sheet.
 "Created Year and Month columns from Order Date using YEAR() and MONTH(), to analyse profit by period."
-**Result Column:** "Created a Result column using IF(Profit<0, "Loss", "Profit") to flag loss-making orders."
+-**Result Column:** "Created a Result column using IF(Profit<0, "Loss", "Profit") to flag loss-making orders."
