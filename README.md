@@ -75,3 +75,8 @@ Overall profit margin is 12.5% (total profit ÷ total sales).
 - Company-wide: average discount 15.6%, profit margin 12.5%.
 - **Finding:** Regions with higher discounts tend to have lower margins.
 - **Caution:** Only 4 regions, and product mix differs, so this shows a pattern, not proof.
+## Step 8: Yearly Trend (Pivot Table)
+- Sales grew from $483,966 (2014) to $733,215 (2017), about +52%.
+- Profit grew from $49,556 to $93,439, about +88%.
+- Profit margin rose from 10.2% (2014) to 13.4% (2016), then dipped to 12.7% in 2017.
+- **Finding:** Sales kept growing, but margin slipped in 2017, so growth did not translate fully into profit.
