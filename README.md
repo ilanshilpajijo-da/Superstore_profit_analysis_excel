@@ -25,3 +25,4 @@ Problem: Order Date and Ship Date looked like dates but were stored as text (che
 Why it matters: Text dates cannot be grouped by month or year.
 Fix: Used Text to Columns with date format MDY (US format) on both columns.
 Check: =ISNUMBER() now returns TRUE for both columns.
+Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing values."
