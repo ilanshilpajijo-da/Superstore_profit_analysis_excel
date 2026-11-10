@@ -61,3 +61,5 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - The biggest losses are at 70% (-40,075) and 80% (-30,539) discounts.
 - **Finding:** Profit turns negative once the discount goes above 20%.
 - **Caution:** This shows a link, not proof. Products and categories also differ, so it should be checked further.
+
+**Found a circular reference in U25 (=[@Profit]), caused by an accidental formula. Restored the original value from the backup sheet and refreshed the pivots
