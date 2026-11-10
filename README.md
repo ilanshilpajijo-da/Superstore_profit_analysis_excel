@@ -69,3 +69,9 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - Central has higher sales than South (501K vs 392K) but lower profit.
 Overall profit margin is 12.5% (total profit ÷ total sales).
 - **Next:** check whether higher discounts in Central explain the low margin.
+## Step 7: Region vs Discount
+- Central gives the highest average discount (24.0%) and has the lowest profit margin (7.9%).
+- West gives the lowest average discount (10.9%) and has the best margin (14.9%).
+- Company-wide: average discount 15.6%, profit margin 12.5%.
+- **Finding:** Regions with higher discounts tend to have lower margins.
+- **Caution:** Only 4 regions, and product mix differs, so this shows a pattern, not proof.
