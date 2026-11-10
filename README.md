@@ -34,3 +34,4 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 "Created Year and Month columns from Order Date using YEAR() and MONTH(), to analyse profit by period."
 
 - **Result Column:** Created a Result column using IF(Profit<0, "Loss", "Profit") to flag loss-making orders.
+- **Pivot Table:** "Pivot table of Profit by Sub-Category showed 3 loss-making sub-categories: Bookcases(-3472.556), Supplies(-1189.0995) and Tables(-17725.4821).
