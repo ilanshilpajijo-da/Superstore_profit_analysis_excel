@@ -55,3 +55,9 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - Supplies loses money even with a low discount (8%), so discount is not the only cause.
 - Binders has the highest average discount (37%) but is still profitable, so average discount alone does not explain losses.
 - **Next:** check profit at each discount level to find where discounts start causing losses.
+## Step 5: Profit by Discount Level (Pivot Table)
+- Discounts up to 20% are profitable (about +421,773 in total).
+- Every discount level from 30% upwards loses money (about -135,364 in total).
+- The biggest losses are at 70% (-40,075) and 80% (-30,539) discounts.
+- **Finding:** Profit turns negative once the discount goes above 20%.
+- **Caution:** This shows a link, not proof. Products and categories also differ, so it should be checked further.
