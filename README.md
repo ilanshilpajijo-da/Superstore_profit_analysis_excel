@@ -67,4 +67,5 @@ Checked Sales, Discount and Profit columns: all 9,994 rows filled, no missing va
 - All four regions are profitable, but margins differ a lot.
 - West has the best margin (14.9%) and Central the weakest (7.9%).
 - Central has higher sales than South (501K vs 392K) but lower profit.
+Overall profit margin is 12.5% (total profit ÷ total sales).
 - **Next:** check whether higher discounts in Central explain the low margin.
