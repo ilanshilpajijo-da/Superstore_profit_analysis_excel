@@ -1,6 +1,7 @@
 # Superstore_profit_analysis_excel
 # Superstore Profit & Loss Analysis (Excel)
 
+
 ## Project Overview
 Analysing Superstore sales data in Excel to find where the business loses profit.
 
@@ -80,3 +81,35 @@ Overall profit margin is 12.5% (total profit ÷ total sales).
 - Profit grew from $49,556 to $93,439, about +88%.
 - Profit margin rose from 10.2% (2014) to 13.4% (2016), then dipped to 12.7% in 2017.
 - **Finding:** Sales kept growing, but margin slipped in 2017, so growth did not translate fully into profit.
+
+## Step 9: Dashboard
+- Built a one-page dashboard with total sales, total profit and profit margin.
+- It has three charts (profit by discount level, profit by sub-category, sales and profit by year), a region table and the key findings.
+- Charts are linked to pivot tables. The region table was pasted as values.
+
+## Key Findings
+1. **Discounts above 20% lead to losses.** Discount levels up to 20% made about $421,773 profit. Every level from 30% upwards lost money, about $135,364 in total. The biggest losses were at 70% (-$40,075) and 80% (-$30,539).
+2. **Three sub-categories lose money:** Tables (-$17,725), Bookcases (-$3,473) and Supplies (-$1,189). Tables and Bookcases also have above-average discounts (26% and 21% vs 16% overall). Supplies loses money even with a low discount (8%), so discount is not the only cause.
+3. **Central region is the weakest.** It has the highest average discount (24.0%) and the lowest profit margin (7.9%). West has the lowest discount (10.9%) and the best margin (14.9%).
+4. **Growth is good, but margin slipped in 2017.** Sales grew from $483,966 (2014) to $733,215 (2017), about +52%. Profit grew from $49,556 to $93,439. Margin was 13.4% in 2016 and 12.7% in 2017.
+
+## Recommendations
+1. Keep discounts at 20% or below, since profit turns negative after that.
+2. Review the prices and discounts of Tables and Bookcases.
+3. Look into why Supplies loses money even with a low discount.
+4. Review the discount policy in the Central region.
+
+## Excel Skills Used
+- Data cleaning: Text to Columns, Remove Duplicates, checking for missing values
+- Formulas: YEAR, MONTH, IF, and basic maths for Profit Margin
+- Pivot tables and pivot charts
+- Dashboard design
+
+## Files in this Repository
+- `Superstore_Analysis.xlsx` - the full workbook (backup of raw data, pivot tables, charts, dashboard)
+- `Dashboard.png` - screenshot of the dashboard
+- The original CSV is not included. Please download it from Kaggle (link above).
+
+## Limitations
+- This is a sample dataset from a fictional store, so the findings show the method, not a real business.
+- The results show patterns, not proof. Product mix and other factors also affect profit.
