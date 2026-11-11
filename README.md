@@ -1,6 +1,6 @@
-# Superstore_profit_analysis_excel
 # Superstore Profit & Loss Analysis (Excel)
 
+<img width="1463" height="681" alt="Screenshot 2026-11-11 165421" src="https://github.com/user-attachments/assets/a8b7b03c-f48d-440c-84bd-2862851561b1" />
 
 ## Project Overview
 Analysing Superstore sales data in Excel to find where the business loses profit.
